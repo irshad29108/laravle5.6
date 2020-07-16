@@ -1,0 +1,43 @@
+.kt-radio-inline > .kt-radio > span::after {
+  background-color: #7d1a89;
+  padding: 5px;
+  margin-left: -0.6rem;
+  margin-top: -0.6rem;
+}
+
+.kt-quick-panel-overlay {
+  display: none;
+}
+
+.kt-quick-panel.kt-quick-panel--on {
+  top: 0;
+  left: 9.18vw;
+}
+
+.kt-menu__item .kt-menu__submenu {
+  top: 0 !important;
+  bottom: auto !important;
+}
+
+/* .select2-container {
+  width: 100% !important;
+} */
+
+.select2-container--default .select2-selection--multiple {
+  border: 1px solid #ddd !important;
+  padding: 0.5rem;
+}
+/* .kt-aside-menu--dropdown
+  .kt-menu__nav
+  .kt-menu__item:nth-child(2)
+  .kt-menu__submenu {
+  top: 0 !important;
+  bottom: auto !important;
+} */
+
+@media (max-width: 1025px) {
+  .kt-quick-panel.kt-quick-panel--on {
+    top: 0;
+    left: 10.3vw;
+  }
+}

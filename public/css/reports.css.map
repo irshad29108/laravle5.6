@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,WADO,CACP,KAAK,GAAG,EAAE,GAAG,EAAE,CAAC;EACZ,SAAS,EAAE,gBAAgB;EAC3B,WAAW,EAAC,MAAM;CACrB;;AAJL,AAMI,WANO,CAMP,KAAK,GAAG,EAAE,GAAG,EAAE,CAAC;EACZ,SAAS,EAAE,gBAAgB;CAC9B",
+    "sources": [
+        "reports.scss"
+    ],
+    "names": [],
+    "file": "reports.css"
+}

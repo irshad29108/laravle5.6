@@ -1,0 +1,158 @@
+// Breakpoints
+$bp-small: 48em; // 768px
+$bp-medium: 64em; // 1024px
+$bp-large: 85.375em; // 1366px (Desktops)
+$bp-mlarge: 95.9em; // 1534px (Laptops)
+$bp-xlarge: 120em; // 1920px
+$bp-xxlarge: 160em; // 2560px
+
+// $colors: {--success: #4d8a4d;};
+
+#kt_wrapper {
+    padding-top: 4.8%;
+}
+
+#kt_demo_panel {
+    left: 0%;
+    width: 20% !important;
+    top: 11.1%;
+    box-shadow: 0px !important;
+    z-index: 100;
+}
+
+#kt_header {
+    //box-shadow: 5px 10px 18px #88888869;
+    z-index: 101;
+}
+
+
+@media(min-width: 95.9em) and (max-width : #{$bp-xlarge}){
+    #kt_demo_panel {
+        top: 11.23%;
+        width: 25% !important;
+    }
+}
+
+@media(min-width: #{$bp-large}) and (max-width : 95.9em){
+    #kt_demo_panel {
+        top: 12.8%;
+        width: 25% !important;
+    }
+}
+
+.maps-search {
+    width: 100%;
+    .btn-group {
+        width: 100%;
+
+        button {
+            border: 0;
+            color: #730070;
+            background-color: #ddddddbe;
+        }
+
+        .kt-input-icon #generalSearch {
+            background-color: #ddddddbe;
+        }
+
+        .kt-input-icon #generalSearch:focus {
+            border: none;
+        }
+    }
+}
+
+.iacmap-vehicle__item {
+    /* Map Vehicles CSS */
+    background-color: #eee;
+    margin: 2%; 
+    padding: 0% 2% !important;
+}
+
+.iacmap-vehicle__item.success{
+    border-left: 10px solid var(--success);
+    .kt-notification__item-details b {
+        color: var(--success) !important;
+    }
+}
+
+.iacmap-vehicle__item.muted{
+    border-left: 10px solid grey;
+    .kt-notification__item-details b {
+        color: grey !important;
+    }
+}
+
+.iacmap-vehicle__item.danger{
+    border-left: 10px solid var(--danger);
+    .kt-notification__item-details b {
+        color: var(--danger) !important;
+    }
+}
+
+.iacmap-vehicle__item.warning{
+    border-left: 10px solid var(--warning);
+    .kt-notification__item-details b {
+        color: var(--warning) !important;
+    }
+}
+
+
+.kt-grid.kt-grid--ver-desktop.kt-grid--desktop {
+    display: none !important;
+}
+
+.iacmap-vehicle__item:hover {
+    /* Map Vehicles CSS */
+    background-color: #ddddddbe;
+}
+
+.iacmap-vehicle__item .kt-notification__item-details {
+    padding-top: 1rem;
+}
+
+.gm-ui-hover-effect {
+    background: none !important;
+    display: block !important;
+    border: 0px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    border-radius: 50% !important;
+    margin: 0% !important;
+    border: 1px solid !important;
+    position: absolute !important;
+    cursor: pointer !important;
+    user-select: none !important;
+    top: 0 !important;
+    right: 0 !important;
+    width: 20px !important;
+    height: 20px !important;
+    img {
+        margin: 2px !important;
+    }
+}
+#map {
+    position: fixed;
+    height: 89vh;
+    padding-bottom: 0 !important;
+    margin-bottom: -5% !important;
+}
+
+#mapLoaderImage {
+    position: fixed;
+	left: 25%;
+	top: 11%;
+	height: 89vh;
+    z-index: 9999;
+    width: 100% !important;
+    background-color: #2e092ddb;
+    img {
+        width: 20%;
+        position: fixed;
+        right: 30%;
+        bottom: 30%;
+    }
+}
+
+p.item-content {
+    font-size: 95% !important;
+}

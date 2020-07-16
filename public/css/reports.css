@@ -1,0 +1,9 @@
+#kt_table_1 thead > tr > th {
+  font-size: .9rem !important;
+  white-space: nowrap;
+}
+
+#kt_table_1 tbody > tr > td {
+  font-size: .8rem !important;
+}
+/*# sourceMappingURL=reports.css.map */
